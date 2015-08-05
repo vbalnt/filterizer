@@ -1,0 +1,43 @@
+* Filterizer
+
+** Intro
+Using this code, you can start creating your own image filters like
+the ones you see in apps like Instagram, Hipstamatic etc.
+
+What you need is Python, and some curve files. To get you started
+there is already a sample curve file ( Country.acv ) inside the repo.
+
+Curve files are some special Photoshop files that alter the appearance
+of the image. You can find lots of them for free, and there is no need
+to have Photoshop installed in order to create filters from them.
+
+For an example of what can be done with =.acv= files take a look at
+the following presets [[http://www.digitalfilmactions.com/photoshop-curves/][sample photoshop curves]].
+
+** Photoshop curve files
+
+The code reads a =.acv= file and outputs the polynomials that adjust
+the colours of an image. 
+There polynomials can then be used to produce filters for images in
+every language you prefer.
+
+[[https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/PhotoshopFileFormats.htm#50577411_pgfId-1056330][Curve file specification from Adobe]]
+
+** Usage
+
+Using the =extractCurvesFromACVFile.py= Python code, you can extract the
+polynomials you need, and then you can use them in your code to alter
+the image. 
+
+** Sample filtering output
+
+[[surrey.png]][[surrey_filtered.png]]
+
+** iOS example
+There is also an example included on how to use a curve extracted from
+an =.acv= file in objective-C.
+Warning: The iPhone code is slow and unoptimized. It is mainly intented as a proof of concept.
+
+** Python filtering example
+ Github user [[https://github.com/pfdevilliers][pfdevilliers]] has wrapped together a nice python script using the
+ curve reading code above. Take a look [[https://github.com/pfdevilliers/python-image-filters][here]]. 
