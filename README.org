@@ -39,5 +39,5 @@ an =.acv= file in objective-C.
 Warning: The iPhone code is slow and unoptimized. It is mainly intented as a proof of concept.
 
 ** Python filtering example
- Github user @pfdevilliers has wrapped together a nice python script using the
+ Github user [[https://github.com/pfdevilliers][@pfdevilliers]] has wrapped together a nice python script using the
  curve reading code above. Take a look [[https://github.com/pfdevilliers/python-image-filters][here]]. 
