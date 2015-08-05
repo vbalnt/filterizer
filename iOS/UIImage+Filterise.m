@@ -5,19 +5,9 @@ DESCRIPTION
 Use these UIImage additions to render the filters you want to use. Use the python tool to extract
 the polynomial values that are used in the sampleFilter method.
 
-
-See http://www.weemoapps.com/creating-retro-and-analog-image-filters-in-mobile-apps 
-for the theory behind this method.
-
 AUTHOR
-email: vassilis@weemoapps.com
-twitter: @weemoapps
-
-LICENSE
-Do whatever you want, but please mention this code in your code if you modify it.
-
-VERSION
-0.1
+email: vassilis@vbalnt.io
+twitter: @vbalnt
 */
 
 #import "UIImage+Filterise.h"
@@ -26,10 +16,8 @@ VERSION
 
 // This is a sample filter with some pre-coded values in the polynomial.
 // You can add your own filters using the same code just by using different polynomials values.
-// For more info on how to get these values, see  http://www.weemoapps.com/creating-retro-and-analog-image-filters-in-mobile-apps
 
-//Ps. the code is slow, and ugly and is intented only as a proof of concept. There are many suggestions on how to improve 
-// this framework if you are willing to help see here: https://github.com/WeemoApps/filteriser/wiki
+//Ps. the code is slow, and ugly and is intented only as a proof of concept.
 + (UIImage *) sampleFilter:(UIImage *)original {
     
     CFDataRef dataref=CGDataProviderCopyData(CGImageGetDataProvider(original.CGImage));
