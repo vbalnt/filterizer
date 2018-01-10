@@ -10,7 +10,7 @@ USAGE
     You need to have scipy and numpy installed.
 
 AUTHOR
-    email: vassilis@vbalnt.io
+    email: balntas@robots.ox.ac.uk
     twitter: @vbalnt
 
 VERSION
