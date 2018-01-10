@@ -6,7 +6,7 @@ Use the UIImage additions to render the filters you want to use. Use the python 
 the polynomial values that are used in the sampleFilter method.
 
 AUTHOR
-email: vassilis@vbalnt.io
+email: balntas@robots.ox.ac.uk
 twitter: @vbalnt
 */
 
